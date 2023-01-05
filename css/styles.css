@@ -1,0 +1,208 @@
+body {
+  font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+
+p {
+  color: grey;
+}
+
+/* Headings*/
+
+.big-heading{
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Section */
+
+.colored{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white{
+  background-color: white;
+}
+
+/* Navigation-bar */
+
+.navu {
+  padding: 0 0 4.5rem;
+  margin: 0;
+  font-family: "Ubuntu";
+  font-size: 2.0rem;
+  font-weight: light;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.0rem;
+  font-family: "Merriweather";
+  font-weight: light;
+}
+
+/* Buttons */
+
+.doenload-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title.container-fluid{
+  padding:2% 15% 7%;
+}
+
+.title-img {
+  transform: rotate(20deg);
+  position: absolute;
+  top: 210px;
+  right: 27%;
+}
+
+/* Features section */
+
+#features {
+  position: relative;
+  padding: 150px 200px 150px;
+  z-index: 1
+}
+
+.features-text{
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.features {
+  padding: 0 45px;
+}
+
+.hov:hover {
+  color: rgb(182, 41, 60);
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-style: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Priving Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text{
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+/* CTA Section */
+#cta {
+  font-family: "Montserrat";
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+/* fiiter section */
+
+#footer {
+  padding-top: 20px;
+}
+
+.last {
+  font-size: 45px;
+  margin: 20px 250px 20px;
+  padding-top: 150px;
+}
+
+.final_img {
+  width: 20px;
+  height: 20px;
+}
+/* classes */
+
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pos {
+  position: relative;
+  z-index: 0
+}
+
+.prcing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* media queries */
+@media (max-width:996px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
